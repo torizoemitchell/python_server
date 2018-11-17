@@ -6,7 +6,7 @@ app = Flask(__name__ )
 
 @app.route('/')
 def Index():
-    return "hello flask"
+    return temperature_graph.make_graph()
 
 
 app.run(debug=True)

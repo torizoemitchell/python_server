@@ -1,4 +1,4 @@
-print("imported module")
+
 import matplotlib.pyplot as plt, mpld3
 import jinja2
 import requests
@@ -65,6 +65,7 @@ def make_graph():
     next_mens = [29, 30, 31]
     next_temps = [98.6, 98.6, 98.6]
 
+    fig = plt.figure()
     plt.xlabel('entry number')
     plt.ylabel('basal body temp in F')
     plt.title('BBT Over Time')
@@ -77,4 +78,5 @@ def make_graph():
     plt.legend()
     plt.plot(next_mens, next_temps, '#42a5f5')
     #plt.show()
-    mpld3.show()
+    #mpld3.show()
+    return mpld3.fig_to_html(fig)

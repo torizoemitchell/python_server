@@ -10,4 +10,4 @@ def Index():
     return temperature_graph.make_graph()
 
 
-app.run()
+# app.run()

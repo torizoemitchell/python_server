@@ -1,4 +1,4 @@
-
+Flask==1.0.2
 argcomplete==1.9.3
 awscli==1.16.55
 boto3==1.9.45
@@ -11,7 +11,6 @@ colorama==0.3.9
 cycler==0.10.0
 docutils==0.14
 durationpy==0.5
-Flask==1.0.2
 future==0.16.0
 hjson==3.0.1
 idna==2.7

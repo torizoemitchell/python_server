@@ -2,9 +2,11 @@
   "name": "python_server",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.py",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "python app.py"
+
   },
   "author": "",
   "license": "ISC"

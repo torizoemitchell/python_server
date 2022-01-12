@@ -24,7 +24,7 @@ MarkupSafe==1.1.0
 matplotlib==3.0.2
 mpld3==0.3
 numpy==1.15.4
-pipenv==2018.11.14
+pipenv==2022.1.8
 placebo==0.8.2
 pyasn1==0.4.4
 pyparsing==2.3.0
